@@ -1,0 +1,46 @@
+ 
+
+   h1 {
+    color: white;
+  }
+ 
+  
+  .wrapper .ball {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    color: #3d3c3a;
+    border-radius: 100%;
+    float: left;
+    background-color: #fff;
+    margin: 20px;
+    font-weight: 500;
+    box-shadow: 1px 1px 0.5px #000;
+    animation-duration: .3s;
+    align-items: center
+}
+  .wrapper1 .ball {
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    color: #3d3c3a;
+    border-radius: 100%;
+    float: left;
+    background-color: #fff;
+    margin: 20px;
+    font-weight: 500;
+    box-shadow: 1px 1px 0.5px #000;
+}
+
+
+#deposit{
+  width: 200px;
+  margin-top: 2px;
+}
+.balance{
+  width: 200px;
+}
+
+
