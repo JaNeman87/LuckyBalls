@@ -3,7 +3,7 @@
    h1 {
     color: white;
   }
- 
+  
   
   .wrapper .ball {
     width: 40px;
@@ -41,6 +41,42 @@
 }
 .balance{
   width: 200px;
+}
+
+.wrapper{
+  width: 100%;
+  margin: 50px auto;
+  height: 540px;
+  overflow: auto;
+  text-align: center;
+  font-weight: bold;
+  
+}
+
+
+
+
+@media (min-width: 500px) and (min-height: 400px){
+  .wrapper{
+      width: 350px;
+      height: 300px;
+  }
+}
+
+@media (min-width: 500px) and (min-height: 401px){
+  .wrapper{
+      width: 450px;
+      height: 400px;
+  }
+}
+
+@media (min-width: 1000px) and (min-height: 600px){
+  .wrapper{
+      width: 95%;
+      overflow: hidden;
+      height: 390px;
+      margin-left: 40px
+  }
 }
 
 
