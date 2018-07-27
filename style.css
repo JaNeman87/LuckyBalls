@@ -45,7 +45,7 @@
 
 .wrapper{
   width: 100%;
-  margin: 50px auto;
+  margin: 50px 0 20px 30px ;
   height: 540px;
   overflow: auto;
   text-align: center;
@@ -72,10 +72,10 @@
 
 @media (min-width: 1000px) and (min-height: 600px){
   .wrapper{
-      width: 95%;
+      width: 100%;
       overflow: hidden;
-      height: 390px;
-      margin-left: 40px
+      height: 430px;
+      margin-left: 20px
   }
 }
 
