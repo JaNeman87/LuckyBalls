@@ -27,7 +27,7 @@
     line-height: 60px;
     color: #3d3c3a;
     border-radius: 100%;
-    float: left;
+    display: inline-block;
     background-color: #fff;
     margin: 20px;
     font-weight: 500;
@@ -73,7 +73,7 @@
 @media (min-width: 1000px) and (min-height: 600px){
   .wrapper{
       width: 100%;
-      overflow: hidden;
+      overflow: auto;
       height: 430px;
       margin-left: 20px
   }
